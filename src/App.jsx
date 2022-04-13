@@ -135,7 +135,7 @@ export default function App() {
             <Header />
             <div style={{ marginTop: 100, overflow: "visible" }}>
                 <Container id="helloContainer" pad style={{ maxHeight: 650 }}>
-                    <img src={Me} alt="" className='meImg' />
+                    <img src={Me} alt="" className='meImg bumpyImage' />
                     <div style={{ overflow: "visible" }} className="flex aic jcc fdc">
                         <h1 className='parallelogram' style={{ marginTop: 50, fontWeight: "bolder", fontSize: 40, marginBottom: 0, textAlign: "center", background: "#000", color: "white", padding: 10 }}>Hello, I'm <span style={{ color: "#fcca3f" }}>Ethan</span></h1>
                         <h3 style={{ fontStyle: "italic", overflow: "visible", opacity: .8, textAlign: "center" }}>Fullstack web/app developer</h3>
