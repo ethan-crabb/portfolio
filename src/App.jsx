@@ -137,7 +137,11 @@ export default function App() {
                 <Container id="helloContainer" pad style={{ maxHeight: 650 }}>
                     <img src={Me} alt="" className='meImg bumpyImage' />
                     <div style={{ overflow: "visible" }} className="flex aic jcc fdc">
-                        <h1 className='parallelogram' style={{ marginTop: 50, fontWeight: "bolder", fontSize: 40, marginBottom: 0, textAlign: "center", background: "#000", color: "white", padding: 10 }}>Hello, I'm <span style={{ color: "#fcca3f" }}>Ethan</span></h1>
+                        <h1 className='parallelogram' style={{ marginTop: 50, fontWeight: "bolder", fontSize: 40, marginBottom: 0, textAlign: "center", background: "#000", color: "white", padding: 10 }}>
+                            <Typewriter options={{
+                                delay: 80,
+                            }} onInit={(typewriter) => { typewriter.typeString("Hello, I'm Ethan").start(); }} />
+                        </h1>
                         <h3 style={{ fontStyle: "italic", overflow: "visible", opacity: .8, textAlign: "center" }}>Fullstack web/app developer</h3>
                         <div style={{ background: "#fcca3f", width: 30, height: 10, marginTop: 40 }} />
                     </div>
